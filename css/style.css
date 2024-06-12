@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+header {
+    /* display: flex; */
+    background-image: url(/img/brian-babb-XbwHrt87mQ0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+     
+}
+
+
+#logo img {
+    width: 7vw;
+    height: 15vh;
+}
+
+#nav {
+    margin: 0;
+    padding: 0;
+}
+
+#ul-list {
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+    margin-right: 10rem;
+    gap: 3rem;
+    justify-content: right;    
+    align-content: space-between;
+    font-size: 18px;  
+}
+
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-item:hover {
+cursor: pointer;
+transform: scale(1.2);
+overflow: hidden;
+}
+
+#header-text {
+    margin-top: 2rem;
+}
+
+
+#header-text h1{
+display: flex;
+margin-top:6rem;
+margin-left: 4rem;
+margin-bottom: 0;
+font-family: 'Franklin Gothic', 'Arial', Arial, sans-serif;
+font-weight: bolder;
+}
+
+
+#header-text p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  margin: 2rem 3rem;
+}
+
+#icons2 {
+    display: flex;
+    margin: 4rem 4rem;
+    gap: 6rem;
+    padding: 0;
+}
+
+#icons2 img {
+    /* transform: 50%; */
+    display: flex;
+    width: 10vw;
+    height: 18vh;
+    float: left;
+    margin-right: 15px;
+}
+
+#icons2 h2 {
+    display: flex;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#icons2 p {
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 0;
+    padding: 0;
+    color: rgb(55, 55, 56);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+/* 
+#Slide-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+
+.slides {
+    display: none;
+}
+
+
+.sli-text {
+    color: white;
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: .4;
+    }
+    to {
+      opacity: 1;
+    }
+  } */
+
+  #Serv {
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 30px;
+margin-top: 3rem;
+margin-left: 3rem;
+  }
+
+#Serv img {
+  display: flex;
+  float: left;
+    width: 5vw;
+    height: 9vh;
+    justify-content: right;
+    margin: 4rem 0.6rem;
+    padding-top: 0;
+}
+
+#Serv h2 {
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 0.7rem;
+}
+
+#contacts {
+  margin: 7rem 7rem;
+ 
+}
+
+#c-text h5{
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  color: rgb(245, 111, 22);
+    font-family: 'Franklin', Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 0.3rem;
+}
+
+#c-text h1{
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'Franklin','Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+  font-size: xx-large;
+  padding-top: 0.4rem;    
+}
+
+#c-text p {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 0.8rem;
+  margin-bottom: 5rem;
+}
+
+#contacts form {
+  
+}
