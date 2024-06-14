@@ -80,7 +80,7 @@ header {
   text-align: center;
 }
 
-.about-section {
+#about-section {
   margin: 6rem 0;
   display: flex;
   justify-content: center;
