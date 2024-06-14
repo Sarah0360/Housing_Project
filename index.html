@@ -10,92 +10,51 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <div id="nav">
-            <div id="logo">
+            <!-- <div id="logo">
                 <img src="/img/n.png" alt="Affordable Housing logo">
-            </div>
+            </div> -->
             <nav>
                 <ul id="ul-list">
-                    <li><a href="" class="nav-item">Home</a></li>
-                    <li><a href="" class="nav-item">About</a></li>
-                    <li><a href="" class="nav-item">Projects</a></li>
-                    <li><a href="" class="nav-item">Services</a></li>
-                    <li><a href="" class="nav-item">Contact</a></li>
+                    <li><a href="#home" class="nav-item">Home</a></li>
+                    <li><a href="#About" class="nav-item">About</a></li>
+                    <li><a href="#project-sect" class="nav-item">Projects</a></li>
+                    <li><a href="#serv-sect" class="nav-item">Services</a></li>
+                    <li><a href="#contacts" class="nav-item">Contact</a></li>
                 </ul>
             </nav>
         </div>
         <div id="header-text">
-            <h1>HOUSING <br>& <br>DECOR</h1>
-            <p>We build and help bring your dream house <br>to life, by helping you get the best locations <br>all the
-                way to setting up a place you can call <br>home. All this at affordable prices and fixable <br>building
-                plan </p>
+            <h1>HOUSING & <span>DECOR</span></h1>
+            <p>We Help Build Your Dream Home</p>
         </div>
     </header>
-    <section id="icons2">
-        <div>
-            <img src="/img/Modern House Design with 3 Bedrooms, Veranda, Porch, and Roof Deck Layout Kit basic Floor Plan, Elevation Sections Digital Download - Etsy.jpg"
-                alt="3 Bedroom Modern house">
-            <h2>Innovative Structure</h2>
-            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..</p>
-        </div>
-        <div>
-            <img src="/img/76b70e65-df9b-4fd5-8535-f3cb2d47307f.jpg" alt="cute house">
-            <h2>Arhictectural</h2>
-            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..</p>
-        </div>
-        <div>
-            <img src="/img/27 Small Wooden Houses With Space-Optimized Layouts (Concept).jpg"
-                alt=" tiny house/Room interior decor">
-            <h2>Interior Design</h2>
-            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..</p>
-        </div>
-    </section>
 
-    <section>
-        <div id="gall-text">
-            <h5>KNOW MORE</h5>
-            <h1>About Us</h1>
-        </div>
-        <div id="img-gallery">
-            <div id="gall-1">
-                <img src="/img/When and Why Prospective Buyers Should Get a Property Survey.jpg" alt="land">
-                <img src="/img/5-Acre Rough Diamond in the Gorgeous Outback of Maricopa County, Arizona.jpg" alt="land">
-                <h5>We Help You Find Your Spec Location </h5>
-            </div>
+    <section class="about-section">
+    <div class="about-text">
+        <h5>KNOW MORE</h5>
+        <h2>ABOUT US</h2>
+        <p>We build and help bring your dream house to life,<br>by helping you get the best locations all the
+            way <br>to setting up a place you can call home. All this at<br>affordable prices and fixable building
+            plan 
+        </p>
 
-            <div id="gall-2">
-                <img src="/img/What is the Cost Per Square Foot of Different Earth Building Methods_  An Overview of Natural, Eco-Friendly, Earthen Architecture Traditions_.jpg"
-                    alt="building material">
-                <img src="/img/Building a house_ What are the costs_.jpg" alt="contractors building a house">
-                <h5>Stand and Counsel You Through The Process</h5>
-            </div>
-
-
-            <div id="gall-3">
-                <img src="/img/amazing home gardening.jpg" alt="A house">
-                <img src="/img/fb74f7ea-8a4c-4e1e-95f7-67bc231dddc6.jpg" alt="A house">
-                <h5>Till Your Dream Is Achieved, Our Goal Is Not Complete</h5>
-            </div>
-
-            <div id="gall-4">
-                <img src="/img/LM Design Studio on Instagram_ _A bit of a….jpg" alt="LM Room Design">
-                <img src="/img/51 Stylish and Elegant Black and White Kitchen Ideas - Matchness_com.jpg"
-                    alt="Kitchen Decor">
-                <img src="/img/Korean Bedroom Decor Tips.jpg" alt="Bedroom Decor">
-                <h5>We take You a Step Further, And to Create a Home of Comfort and Relaxation, A
-                    Place where Memories
-                    Would be Made</h5>
-            </div>
-
-
-            <div>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <!-- Add more dots if needed -->
-            </div>
-        </div>
-    </section>
+        <ol>
+          <li class="ol">1. We Help You Find Your Spec Location</li> 
+          <li class="ol">2. Stand and Counsel You Through The Process</li>
+          <li class="ol">3. Till Your Dream Is Achieved, Our Goal Is Not<br>Complete</li>
+          <li class="ol">4. We take You a Step Further, And to Create a Home of<br>Comfort and Relaxation, a place where Memories Would<br>be Made</li> 
+        </ol>
+            <button class="about-btn"><a href="">Read More</a></button>
+        
+        
+    </div>
+    <div class="images">
+        <img src="/img/When and Why Prospective Buyers Should Get a Property Survey.jpg" alt="Beach Scenery with a Float Plane" id="land">
+        <img src="/img/Small Space, Big Impact_ Stylish Tiny Home Decor Ideas.jpg" alt="Speed Boat Ride" id="boat">
+    </div>
+</section>
     <hr>
 
     <section id="project-sect">
@@ -109,36 +68,39 @@
         </div>
         <div id="project-imgs">
             <div>
-                <img src="./img3/hero_bg_1.jpg" alt="">
+                <img src="/img/hero_bg_1.jpg" alt="" class="img-hover">
                 <h3><a href="">Butterfly House</a></h3>
                 <p>Interior</p>
             </div>
             <div>
-                <img src="./img3/dream bedroom ✨.jpg" alt="bedroom decor">
+                <img src="/img1/bedroom-6778193_1920.jpg" alt="bedroom decor" class="img-hover">
                 <h3><a href="">Interior Bed Design</a></h3>
                 <p>Design</p>
             </div>
             <div>
-                <img src="./img3/Top Black and White Kitchen Decor Tips.jpg" alt="Kitchen decor">
+                <img src="/img1/kitchen-1940174_1920.jpg" alt="Kitchen decor" class="img-hover">
                 <h3><a href="">Kitchen Sink Design</a></h3>
                 <p>Interior</p>
             </div>
             <div>
-                <img src="./img3/Puffino Mx.jpg" alt="home-lobby decor">
+                <img src="/img1/spacejoy-YI2YkyaREHk-unsplash.jpg" alt="home-lobby decor" class="img-hover">
                 <h3><a href="">Lobby Interior Design</a></h3>
                 <p>Interior</p>
             </div>
             <div>
-                <img src="./img3/Dream Living Room.jpg" alt="">
+                <img src="/img1/pool-5055009_1920.jpg" alt="" class="img-hover">
                 <h3><a href="">Relaxation Room Design</a></h3>
                 <p>Design</p>
             </div>
             <div>
-                <img src="./img3/Architectural Design Elements of Modern American Homes _ FH.jpg"
-                    alt="Modern House Design">
+                <img src="/img/Charming Petite Dwelling_ Small House Designs with Big Personality.jpg"
+                    alt="Modern House Design" class="img-hover">
                 <h3><a href="">Modern House</a></h3>
                 <p>Interior</p>
             </div>
+        </div>
+        <div id="view">
+            <button type="button"><a href="">View More</a></button>
         </div>
     </section>
     <hr>
@@ -190,7 +152,57 @@
                 </p>
             </div>
         </div>
-    </section>
+    </section><hr>
+    
+        <div id="about-2">
+            <h5>PRICING</h5>
+            <h2>Choose Your Plan</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, explicabo, quasi. Magni deserunt sunt
+                labore.</p>
+            <section id="price-package">
+                <div class="prices">
+                    <h4>Tiny Home</h4>
+                    <h3><sup>$</sup>30<sub>/year</sub></h3>
+                    <li class="li-text">* Billed annualy or $10 per month</li>
+                    <ul>
+                        <li class="ul"><i class="fa fa-check" aria-hidden="true" class="check"></i>Max 5 users</li>
+                        <li class="ul"><i class="fa fa-check" aria-hidden="true" class="check"></i>29 local security</li>
+                        <li class="ul"><span class="fade"><i class="fa fa-check" aria-hidden="true" class="check"></i></span><span>Desktop App</span></li>
+                        <li class="ul"><span class="fade"><i class="fa fa-check" aria-hidden="true" class="check"></i></span><span>Email Support</span></li>
+                        <li class="ul"><span class="fade"><i class="fa fa-check" aria-hidden="true" class="check"></i></span><span>Support 24/7</span></li>
+                    </ul>
+                    <button><a href="" class="abt-btn">Buy Now</a></button>
+                </div>
+                
+                <div class="prices">
+                    <h4>Smart Homes</h4>
+                    <h3><sup>$</sup>30<sub>/year</sub></h3>
+                    <li class="li-text">* Billed annualy or $10 per month</li>
+                    <ul>
+                        <li class="ul"><i class="fa fa-check" aria-hidden="true" class="check"></i>Max 5 users</li>
+                        <li class="ul"><i class="fa fa-check" aria-hidden="true" class="check"></i>29 local security</li>
+                        <li class="ul"><i class="fa fa-check" aria-hidden="true" class="check"></i>Desktop App</li>
+                        <li class="ul"><i class="fa fa-check" aria-hidden="true" class="check"></i>Email Support</li>
+                        <li class="ul"><span class="fade"><i class="fa fa-check" aria-hidden="true" class="check"></i></span><span>Support 24/7</span></li>
+                    </ul>
+                    <button><a href="" class="abt-btn">Buy Now</a></button>
+                   
+                </div>
+                <div class="prices">
+                    <h4>Estate-Build Homes</h4>
+                    <h3><sup>$</sup>30<sub>/year</sub></h3>
+                    <li class="li-text">* Billed annualy or $10 per month</li>
+                    <ul>
+                        <li class="ul"><i class="fa fa-check" aria-hidden="true" class="check"></i>Max 5 users</li>
+                        <li class="ul"><i class="fa fa-check" aria-hidden="true" class="check"></i>29 local security</li>
+                        <li class="ul"><i class="fa fa-check" aria-hidden="true" class="check"></i>Desktop App</li>
+                        <li class="ul"><i class="fa fa-check" aria-hidden="true" class="check"></i>Email Support</li>
+                        <li class="ul"><i class="fa fa-check" aria-hidden="true" class="check"></i>Support 24/7</li>
+                    </ul>
+                    <button><a href="" class="abt-btn">Buy Now</a></button>
+                </div>
+            </div>    
+
     <hr>
     <section id="contacts">
         <div id="c-text">
@@ -206,7 +218,7 @@
             <input type="text"><br>
             <label for="message">Message</label><br>
             <input type="text"><br><br>
-            <button class="btn"><a href="">Send Message</a></button>
+            <button id="btn"><a href="">Send Message</a></button>
         </form>
     </section>
     <footer>
@@ -255,7 +267,7 @@
                 </div>
             </div>
         </div>
-        <div id="Co.right">
+        <div id="Coright">
             <p>Copyright&nbsp;<i class="fa fa-copyright" aria-hidden="true"></i>&nbsp;2024 All rights reserved
                 &nbsp; | &nbsp;This template is made with &#129505; by FH
             </p>
